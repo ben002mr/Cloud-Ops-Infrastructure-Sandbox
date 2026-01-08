@@ -8,6 +8,9 @@ This repository contains generic implementations of infrastructure patterns util
 * **Observability:** Utilizing **Dynatrace** for full-stack monitoring and **PagerDuty** for automated incident response.
 * **Automation:** Designing **Apache Airflow** DAGs for reliable data pipeline orchestration.
 * **CI/CD:** Managing environment-specific releases and approvals via **Azure DevOps**.
+* **Data Correlation & NoSQL:** Utilizing **MongoDB** queries to troubleshoot order-to-invoice flows by correlating Shopper IDs and Order IDs across high-volume production databases.
+* **Incident Root Cause Analysis (RCA):** Investigating pricing ingestion failures and catalog delays by analyzing message counts and throughput trends.
+* **Cluster Management:** Performing weekly **Blue-Green cluster rotations**, including proactive POD scaling in inactive clusters via Rancher to ensure 100% capacity before traffic cutover.
 
 ## 📂 Repository Structure
 * `kubernetes/`: Generic YAML manifests for Deployments, Services, and HPA.
