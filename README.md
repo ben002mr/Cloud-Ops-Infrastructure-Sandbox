@@ -16,3 +16,5 @@ This repository contains generic implementations of infrastructure patterns util
 * `kubernetes/`: Generic YAML manifests for Deployments, Services, and HPA.
 * `automation/`: Sample Airflow DAGs for data workflow management.
 * `monitoring/`: Documentation on SRE best practices and incident response workflows.
+* `database/`  : MongoDB scripts for pinning down invoice PDFs by correlating Shopper IDs to Order IDs across time periods.
+* `pipelines/` : Best practices for managing library variables and release approvals for frontend/backend pipelines.
